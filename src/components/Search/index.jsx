@@ -3,7 +3,6 @@ import React from "react";
 function Search({searchValue, setSearchValue}){
 
     const onSearchValueChange = (event) => {
-        console.log(event.target.value);
         setSearchValue(event.target.value);
     };
 
